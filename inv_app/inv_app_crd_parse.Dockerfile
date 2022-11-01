@@ -1,5 +1,4 @@
 FROM ai:python-common
-MAINTAINER Aechan Kim <ackim@fsec.or.kr>
 
 RUN mkdir /home/dockeruser/data
 RUN mkdir /home/dockeruser/npy

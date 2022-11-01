@@ -1,4 +1,4 @@
-FROM ai:python-keras
+FROM ai:python-common
 MAINTAINER Mohyun Park <mhpark@fsec.or.kr>
 
 RUN mkdir /home/dockeruser/npy

@@ -7,6 +7,8 @@ RUN apt-get  update   &&\
     pip3 install numpy
 
 RUN mkdir /home/dockeruser &&\
-    chmod 777 -R /home/
+    chmod 777 -R /home/ &&\
+    mkdir /var/lib/docker &&\
+    chmod 777 -R /var/lib/docker
 
 CMD ["/bin/bash"]

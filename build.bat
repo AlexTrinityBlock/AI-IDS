@@ -5,6 +5,14 @@ docker build -f realtime_save.Dockerfile -t ai:realtime_save .
 docker build -f data_split.Dockerfile -t ai:data_split .
 docker build -f data_backup.Dockerfile -t ai:data_backup .
 
-CALL inv_app\build.bat
-CALL inv_aut\build.bat
-CALL inv_sql\build.bat
+CD inv_app
+CALL build.bat
+CD ..
+
+CD inv_aut
+CALL build.bat
+CD ..
+
+CD inv_sql
+CALL build.bat
+CD ..

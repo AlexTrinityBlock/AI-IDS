@@ -1,5 +1,4 @@
-FROM ai:python-keras
-MAINTAINER Aechan Kim <ackim@fsec.or.kr>
+FROM ai:python-common
 
 RUN mkdir /home/dockeruser/npy
 RUN mkdir /home/dockeruser/models
