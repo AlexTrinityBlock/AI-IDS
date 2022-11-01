@@ -1,3 +1,12 @@
+
+# AI-IDS 與 Windows 移植版
+
+1. 下載後，先啟動 Docker desktop。
+
+2. 啟動後點擊 build.bat
+
+---
+
 # License 
 Our AI-IDS software contains the following license and notice below: Licensed under the MIT License. 
 
