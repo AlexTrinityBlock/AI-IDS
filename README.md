@@ -1,6 +1,8 @@
 
 # AI-IDS 與 Windows 移植版
 
+(由嘉義大學重建。注意，原始版本未包含完整的原始碼，如商用網站本身與splunk未收錄。)
+
 1. 下載後，先啟動 Docker desktop。
 
 2. 啟動後點擊 build.bat
